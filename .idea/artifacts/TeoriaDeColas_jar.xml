@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TeoriaDeColas:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Teoria De Colas_jar</output-path>
+    <root id="archive" name="TeoriaDeColas.jar">
+      <element id="module-output" name="TeoriaDeColas" />
+    </root>
+  </artifact>
+</component>

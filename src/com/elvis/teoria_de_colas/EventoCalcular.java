@@ -41,11 +41,11 @@ public class EventoCalcular implements ActionListener, ItemListener {
         if (!(listaDeUnidadesDelResultado.getSelectedItem().toString() == listaDeUnidadesDelProblema.getSelectedItem().toString())) {
             if (listaDeUnidadesDelResultado.getSelectedItem().toString() == listaDeUnidadesDelResultado.getItemAt(1).toString()) {
                 cola.setTiempoEnElSistema((cola.getTiempoEnElSistema() / 60));
-                cola.setTiempoEnLaCola((cola.getTiempoEnElSistema() / 60));
+                cola.setTiempoEnLaCola((cola.getTiempoEnLaCola() / 60));
             }
             if (listaDeUnidadesDelResultado.getSelectedItem().toString() == listaDeUnidadesDelResultado.getItemAt(0).toString()) {
                 cola.setTiempoEnElSistema((cola.getTiempoEnElSistema() * 60));
-                cola.setTiempoEnLaCola((cola.getTiempoEnElSistema() * 60));
+                cola.setTiempoEnLaCola((cola.getTiempoEnLaCola() * 60));
             }
         }
 
